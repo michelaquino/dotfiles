@@ -5,6 +5,7 @@ echo "VS Code to Golang tools"
 echo "----------------"
 export GO111MODULE=on
 
+go get -v honnef.co/go/tools/cmd/staticcheck
 go get -v github.com/ramya-rao-a/go-outline
 go get -v github.com/go-delve/delve/cmd/dlv
 go get -u -v golang.org/x/tools/cmd/godoc
