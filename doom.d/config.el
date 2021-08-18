@@ -20,10 +20,13 @@
 
 ;; Load the recommended configuration
 (use-package evil-multiedit
- :defer 0
- :config
- (evil-multiedit-default-keybinds))
+  :defer 0
+  :config
+  (evil-multiedit-default-keybinds))
 
 (use-package undo-tree)
+(use-package all-the-icons)
+(setq doom-themes-treemacs-theme "doom-colors")
 
 (add-hook 'prog-mode-hook 'format-all-mode)
+(setq projectile-project-search-path '("~/workspace/personal" "~/workspace/webmedia/metadata"))

@@ -10,4 +10,6 @@
 (package! projectile)
 (package! treemacs-evil)
 (package! treemacs-projectile)
+(package! treemacs-all-the-icons)
+(package! treemacs-icons-dired)
 (package! undo-tree)
